@@ -1,0 +1,26 @@
+{
+  "name": "farmcontrol-ws",
+  "version": "1.0.0",
+  "description": "Farmcontrol Web Socket microservice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Tom Butcher",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "log4js": "^6.9.1",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.1",
+    "socket.io": "^4.7.5",
+    "socket.io-adapter-mongo": "^2.0.5",
+    "socketio-jwt": "^4.6.2"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  }
+}
